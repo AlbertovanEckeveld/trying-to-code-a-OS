@@ -6,7 +6,7 @@ I will recommend using linux, windows is also fine but im going with linux this 
 
 I have used NASM for make from assemble code binary.
 ```bash
-apt-get -y install qemu-system
+apt -y install nasm
 ```
 I have used qemu for testing the binary code from nasm.
 ```bash
