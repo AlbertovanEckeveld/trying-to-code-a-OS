@@ -21,3 +21,12 @@ apt-get -y install qemu-system
 ```bash
 qemu-system-x86_64 boot.bin
 ```
+
+### boot.asm: 
+ ```
+jmp $
+times 510-($-$$) db 0
+db 0x055, 0x0aa
+ ```
+
+ if your output is "Booting from Hard disk..." That means that it works just fine.
