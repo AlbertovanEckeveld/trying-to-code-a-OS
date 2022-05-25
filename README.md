@@ -30,3 +30,5 @@ db 0x055, 0x0aa
  ```
 
  if your output is "Booting from Hard disk..." That means that it works just fine.
+ 
+ **source: https://www.youtube.com/watch?v=MwPjvJ9ulSc**
